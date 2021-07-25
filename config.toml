@@ -40,7 +40,7 @@ theme = "hugo-theme-shell"
   """
   [Params.Tree]
   use = true
-  folderName = "skills"
+  folderName = "my_activity"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
     ["AWS", "https://github.com/jpdoria"],
