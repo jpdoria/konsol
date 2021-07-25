@@ -1,0 +1,59 @@
+baseURL = "https://konsol.sh/"
+title = "konsol"
+author = "jpdoria"
+ignoreErrors = ["error-remote-getjson"]
+theme = "hugo-theme-shell"
+
+[Params]
+  [Params.Terminal]
+  # Note: color schema
+  # Note: You can choose between
+  # Note: ["monokai", "powershell", "gruvbox_light", "gruvbox_dark", "solarized_light", "solarized_dark", "ubuntu", "retro"]
+  schema = "monokai"
+
+  # Note: in terminal
+  # [userName]@[pcName]:~/$ cd [workDir]
+  # [userName]@[pcName]:~/[workDir]$ cat [profile]
+  #
+  # [description]
+  #
+  # Note: if you set Params.Tree > user = true
+  # [userName]@[pcName]:~/[workDir]$ tree ./[folderName]/
+  # ./[folderName]/
+  # ...
+  # Note: result of the tree command
+  userName = "jp"
+  pcName = "konsol.sh"
+  workDir = "me"
+  profile = "profile.txt"
+
+  # Note: speed at which text is displayed on the terminal
+  terminalDelay = 20
+
+  # Note: speed at which text is displayed on the activity pages
+  activityDelay = 5
+  
+  description = """
+  Hi I am JP Doria!
+  Nice to meet you!
+
+  """
+  [Params.Tree]
+  use = true
+  folderName = "skills"
+  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
+  files = [ 
+    ["AWS", "https://github.com/jpdoria"],
+    ["Bash", "https://github.com/jpdoria"],
+    ["Python", "https://github.com/jpdoria"],
+    ["Go", "https://github.com/jpdoria"],
+    ["Docker", "https://github.com/jpdoria"],
+    ["Kubernetes", "https://github.com/jpdoria"],
+    ["Helm Charts", "https://github.com/jpdoria"],
+    ["Terraform", "https://github.com/jpdoria"],
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.85.0"
