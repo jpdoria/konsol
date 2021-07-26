@@ -34,8 +34,8 @@ theme = "hugo-theme-shell"
   activityDelay = 5
   
   description = """
-  hey, i am jp doria!
-  nice to meet you! :)
+  hey, i am jp!
+  nice to meet you!
 
   """
   [Params.Tree]
