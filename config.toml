@@ -34,23 +34,23 @@ theme = "hugo-theme-shell"
   activityDelay = 5
   
   description = """
-  Hi I am JP Doria!
-  Nice to meet you!
+  hey, i am jp doria!
+  nice to meet you! :)
 
   """
   [Params.Tree]
   use = true
-  folderName = "my_activity"
+  folderName = "stuff"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-    ["AWS", "https://github.com/jpdoria"],
-    ["Bash", "https://github.com/jpdoria"],
-    ["Python", "https://github.com/jpdoria"],
-    ["Go", "https://github.com/jpdoria"],
-    ["Docker", "https://github.com/jpdoria"],
-    ["Kubernetes", "https://github.com/jpdoria"],
-    ["Helm Charts", "https://github.com/jpdoria"],
-    ["Terraform", "https://github.com/jpdoria"],
+    ["aws", "https://github.com/jpdoria"],
+    ["bash", "https://github.com/jpdoria"],
+    ["python", "https://github.com/jpdoria"],
+    ["go", "https://github.com/jpdoria"],
+    ["docker", "https://github.com/jpdoria"],
+    ["kubernetes", "https://github.com/jpdoria"],
+    ["helm-charts", "https://github.com/jpdoria"],
+    ["terraform", "https://github.com/jpdoria"],
   ]
 
 [module]
