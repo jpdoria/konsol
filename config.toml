@@ -46,7 +46,6 @@ theme = "hugo-theme-shell"
     ["aws", "https://github.com/jpdoria"],
     ["bash", "https://github.com/jpdoria"],
     ["python", "https://github.com/jpdoria"],
-    ["go", "https://github.com/jpdoria"],
     ["docker", "https://github.com/jpdoria"],
     ["kubernetes", "https://github.com/jpdoria"],
     ["helm-charts", "https://github.com/jpdoria"],
