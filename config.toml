@@ -43,13 +43,15 @@ theme = "hugo-theme-shell"
   folderName = "stuff"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-    ["aws", "https://github.com/jpdoria"],
-    ["bash", "https://github.com/jpdoria"],
-    ["python", "https://github.com/jpdoria"],
-    ["docker", "https://github.com/jpdoria"],
-    ["kubernetes", "https://github.com/jpdoria"],
-    ["helm-charts", "https://github.com/jpdoria"],
-    ["terraform", "https://github.com/jpdoria"],
+    ["aws", "https://aws.amazon.com"],
+    ["bash", "https://www.gnu.org/software/bash/"],
+    ["python", "https://www.python.org"],
+    ["docker", "https://www.docker.com"],
+    ["kubernetes", "https://kubernetes.io"],
+    ["helm-charts", "https://helm.sh"],
+    ["terraform", "https://www.terraform.io"],
+    ["music", "https://www.konsol.sh/music"],
+    ["movies", "https://www.konsol.sh/movies"],
   ]
 
 [module]
