@@ -34,8 +34,8 @@ theme = "hugo-theme-shell"
   activityDelay = 5
   
   description = """
-  hey, i am jp!
-  nice to meet you!
+  Hey, my name is JP!
+  Nice to meet you! :)
 
   """
   [Params.Tree]
@@ -50,8 +50,6 @@ theme = "hugo-theme-shell"
     ["kubernetes", "https://kubernetes.io"],
     ["helm-charts", "https://helm.sh"],
     ["terraform", "https://www.terraform.io"],
-    ["music", "https://www.konsol.sh/music"],
-    ["movies", "https://www.konsol.sh/movies"],
   ]
 
 [module]
