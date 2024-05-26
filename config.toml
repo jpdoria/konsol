@@ -46,6 +46,7 @@ theme = "hugo-theme-shell"
     ["aws", "https://aws.amazon.com"],
     ["bash", "https://www.gnu.org/software/bash/"],
     ["python", "https://www.python.org"],
+    ["go", "https://go.dev/"],
     ["docker", "https://www.docker.com"],
     ["kubernetes", "https://kubernetes.io"],
     ["helm-charts", "https://helm.sh"],
